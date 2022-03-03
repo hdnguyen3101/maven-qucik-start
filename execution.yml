@@ -1,5 +1,4 @@
----
-execution:
+excution:
 - concurrency: 10
   hold-for: 3m
   ramp-up: 2m
@@ -10,6 +9,9 @@ scenarios:
     headers:
         Connection: close
     requests:
+    - label: localhost
+      method: GET
+      url: http://localhost/
     - http://localhost/
 
 
