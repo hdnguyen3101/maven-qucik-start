@@ -1,1 +1,1 @@
-# maven-qucik-start
+# maven-quick-start
